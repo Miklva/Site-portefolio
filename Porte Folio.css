@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+a {
+    font-family: "Inter" , sans-serif;
+    text-decoration: none;
+    color: #000;
+     ;
+}
+nav , footer { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat' , sans-serif;
+    background-color: #ffb09d;
+    padding: 15px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin: 15px;
+    }
+
+body { 
+    font-family: 'Montserrat' , sans-serif;
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color:#ffffff;
+    padding:20px;
+    margin: 20px;
+
+}
+
+footer a {
+    margin:10px;
+}
+
+nav a{
+    margin:4px;
+}
+
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+.paragraphe { 
+    color :rgb(30, 30, 30);
+    font-family: 'Montserrat' , sans-serif;
+    border-radius: 20px;
+    padding:20px;
+    margin: 20px;
+}
+
+.retour{
+    display: flex;
+    border:3px;
+}
+
+.nicolas{
+    border-radius: 30px;
+}
+
+.CV {
+    border-radius: 20px;
+    background-color : rgba(255, 216, 117, 0.782);
+    padding:20px;
+    margin: 20px;    
+    flex-wrap: wrap;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.mecontacter{
+    background-color: rgba(249, 243, 121, 0.782);
+    border-radius: 20px;
+    padding:20px;
+
+    margin: 20px;    
+}
+
+.retour{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    border-radius: 20px;
+    border:3px solid;
+    padding:20px;
+    margin: 20px;
+    font-size: 20px;
+    border-color: #ffb09d;
+    background-color: #ffb09d;
+}
+
+.about{
+    background-color: rgba(193, 222, 105, 0.782);
+    border-radius: 20px;
+    padding:20px;
+    margin: 20px;
+
+}
+
+.Apropos{
+    background-color:#a5e4cb;
+    border-radius: 20px;
+    padding:20px;
+    margin: 20px;
+}
+
+.hobbits{
+    background-color: #dcffbb;
+    border-radius: 20px;
+    padding:20px;
+}
+.handball{
+    background-color: rgba(245, 101, 158, 0.782);
+    border-radius: 20px;
+    padding-left: 20%;
+    padding:20px;
+    margin: 20px;
+    
+}
+
+.media {
+    width: 100%; /* L'image occupe toute la largeur de son conteneur */
+    height: auto; /* L'aspect ratio de l'image est préservé */
+}
+
+
+@media screen and (max-width: 600px) {
+    .mecontacter {
+        display: block;
+    }}
+/* Média query pour les écrans de petite taille (par exemple, les smartphones) */
+@media (max-width: 768px) {
+    .media {
+        width: 100%; /* Ajustez la largeur selon vos besoins */
+        max-width: 100%; /* Pour éviter le débordement horizontal */
+        height: auto; /* L'aspect ratio de l'image est préservé */
+    }
+}
+
+/* Média query pour les écrans de taille moyenne (par exemple, les tablettes) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .media {
+        width: 50%; /* Ajustez la largeur selon vos besoins */
+        max-width: none; /* Réinitialisez la largeur maximale */
+        height: auto; /* L'aspect ratio de l'image est préservé */
+    }
+}
+
+/* Média query pour les écrans de grande taille (par exemple, les ordinateurs de bureau) */
+@media (min-width: 1025px) {
+    .media {
+        width: 30%; /* Ajustez la largeur selon vos besoins */
+        max-width: none; /* Réinitialisez la largeur maximale */
+        height: auto; /* L'aspect ratio de l'image est préservé */
+    }
+}
